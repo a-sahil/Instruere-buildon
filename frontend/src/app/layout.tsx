@@ -6,7 +6,7 @@ import { Inter as FontSans } from "next/font/google";
 import { PropsWithChildren } from "react";
 import { ClerkProvider } from '@clerk/nextjs';
 import Logo from './components/Logo';
-import Providers from "./Provider";
+import Providers from "./components/Providers";
 
 
 

@@ -27,10 +27,12 @@ const MainPage = () => {
               <Link href="/minning">
                 <button className="text-4xl text-white">Miner</button>
               </Link>
-              <ConnectButton />
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute right-10 top-8 z-auto">
+      <ConnectButton />
       </div>
     </div>
   );
